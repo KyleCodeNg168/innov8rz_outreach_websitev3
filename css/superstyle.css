@@ -186,13 +186,14 @@
     }
 
     /*media quaries, only affected when screen is at 768 or less*/
-    @media(max-width: 768px){
+    @media(max-width: 1020px){
       /*body{
         display:none;
       } It's a self distruct*/
 
       /*we want to get rid of floats because we want them stacked on top of each other*/
       header #logo,
+      header #symbol,
       header nav,
       header nav li,
       #newsletter h1,
@@ -211,6 +212,10 @@
 
       #showcase h1{
         margin-top: 15px;
+      }
+
+      #showcase{
+        background-position:  -260px -380px;
       }
 
       #newsletter button, .quote button{
